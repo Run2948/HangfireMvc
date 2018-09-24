@@ -3,7 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.ConsoleApp", "Hangfire.ConsoleApp\Hangfire.ConsoleApp.csproj", "{AB19A768-D11B-43A7-BF8C-2486FD92981C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.WebApp", "Hangfire.WebApp\Hangfire.WebApp.csproj", "{EFDD5C5E-0998-4128-A92F-2F3CE1A015F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{75ACA2CF-61AF-4570-A373-F39AA6BD2599}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB19A768-D11B-43A7-BF8C-2486FD92981C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB19A768-D11B-43A7-BF8C-2486FD92981C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB19A768-D11B-43A7-BF8C-2486FD92981C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB19A768-D11B-43A7-BF8C-2486FD92981C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDD5C5E-0998-4128-A92F-2F3CE1A015F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDD5C5E-0998-4128-A92F-2F3CE1A015F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDD5C5E-0998-4128-A92F-2F3CE1A015F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDD5C5E-0998-4128-A92F-2F3CE1A015F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
